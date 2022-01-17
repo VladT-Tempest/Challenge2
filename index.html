@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <p>
-      Hello World, we are software developers!
-    </p>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <p>
+    Hello World, we are software developers!
+  </p>
 
-    <form id="survey-form"> 
-        <label for="name" id="name-label">Name </label> 
-        <input type="text" id="name" placeholder="name" required><br>
-        <label for="email" id="email-label">E-mail</label> 
-        <input type="email" id="email" placeholder="email" required><br>
-        <label for="number" id="number-label">Age</label> 
-        <input type="number" id="number" placeholder="age"  min="1" max="80" required><br>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-    </form>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name: </label>
+    <input type="text" id="name" placeholder="name" required><br>
+
+    <label for="email" id="email-label">E-mail: </label>
+    <input type="email" id="email" placeholder="email" required><br>
+
+    <label for="number" id="number-label">Age: </label>
+    <input type="number" id="number" placeholder="age" min="1" max="80" required><br>
+
+    <select id="dropdown">
+      <option value="Winter">Winter</option>
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+      <option value="Fall">Fall</option>
+
+    </select>
+
+    <input type="radio" name="radios" value="Yes">
+    <label for="radios">Yes</label><br>
+    <input type="radio" name="radios" value="No">
+    <label for="radios">No</label><br>
+
+    <input type="radio" name="group2" value="Cheese">
+    <label for="group2">Cheese</label><br>
+    <input type="radio" name="group2" value="Wine">
+    <label for="group2">Wine</label><br>
+  </form>
 
 
-    <script  src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
